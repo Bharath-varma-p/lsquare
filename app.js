@@ -15,7 +15,9 @@ app.get('/contact',function(req,res){
 })
 
 
-
+app.post('/contact-data',function(req,res){
+    res.send('POST Request');
+})
 
 //app object includes 4 function get() post() put() delete()... 
 
